@@ -1,8 +1,13 @@
 {
   "name": "hello-electron",
-  "productName": "Hello Electron",
   "version": "0.0.1",
-  "description": "A simple hello world example of a Electron App.",
+  "description": "Hello Electron is a simple hello world example of Electron",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/erictherobot/hello-electron.git",
+    "type": "git"
+  },
+  "author": "erictherobot <erictherobot@gmail.com>",
   "license": "MIT",
   "repository": "erictherobot/hello-electron",
   "author": {
@@ -40,4 +45,4 @@
       "browser"
     ]
   }
-}
+  }
