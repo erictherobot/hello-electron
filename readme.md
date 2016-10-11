@@ -1,4 +1,4 @@
-# hello-electron
+# Hello Electron
 Hello Electron is a simple hello world example of Electron.
 
 ![Image](https://dl.dropboxusercontent.com/s/8s1pr8ay8vczzkr/Screenshot%202016-10-11%2015.34.23.png?raw=true)
