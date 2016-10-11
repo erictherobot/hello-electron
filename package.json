@@ -1,8 +1,8 @@
 {
   "name": "hello-electron",
-  "productName": "HelloElectron",
+  "productName": "Hello Electron",
   "version": "0.0.1",
-  "description": "My breathtaking app",
+  "description": "A simple hello world example of a Electron App.",
   "license": "MIT",
   "repository": "erictherobot/hello-electron",
   "author": {
