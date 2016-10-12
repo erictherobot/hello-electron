@@ -1,0 +1,19 @@
+{
+  "env": {
+    "development": {
+      "text/typescript": {
+        "sourceMaps": "inline",
+        "module": "es6",
+        "target": "es5"
+      },
+      "text/less": {
+        "dumpLineNumbers": "comments"
+      }
+    },
+    "production": {
+      "text/typescript": {
+        "sourceMaps": "none"
+      }
+    }
+  }
+}
