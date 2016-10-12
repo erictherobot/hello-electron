@@ -16,11 +16,6 @@
     "start": "electron .",
     "build": "electron-packager . 'Hello Electron' --out=dist --asar --all --icon 'electron.icns' --overwrite"
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
   "keywords": [
     "electron-app",
     "electron"
