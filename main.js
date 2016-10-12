@@ -1,8 +1,4 @@
-const electron = require('electron')
-// Module to control application life.
-const app = electron.app
-// Module to create native browser window.
-const BrowserWindow = electron.BrowserWindow
+const {app, BrowserWindow} = require('electron');
 
 // Reload Electron if changes are detected upon file save. (Live Reload)
 require('electron-reload')(__dirname);
@@ -20,7 +16,7 @@ function createWindow () {
 	})
 
   // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/index.html`)
+  mainWindow.loadURL(`file://${__dirname}/src/index.html`)
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
