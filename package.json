@@ -4,17 +4,17 @@
   "version": "0.0.1",
   "description": "Hello Electron is a simple hello world example of Electron",
   "main": "main.js",
-  "repository": "erictherobot/hello-electron",
+  "repository": "https://github.com/erictherobot/hello-electron",
   "author": {
-    "name": "erictherobot",
+    "name": "Eric David Smith",
     "email": "erictherobot@gmail.com",
-    "url": "erictherobot.com"
+    "url": "http://erictherobot.com"
   },
   "license": "MIT",
   "scripts": {
     "test": "xo",
     "start": "electron .",
-    "build": "electron-packager . 'Hello Electron' --out=dist --asar --all --icon 'electron.icns' --overwrite"
+    "build": "electron-packager . 'Hello Electron' --out=dist --asar --all --icon './assets/img/electron.icns' --overwrite"
   },
   "keywords": [
     "electron-app",
