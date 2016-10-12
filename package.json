@@ -3,7 +3,7 @@
   "productName": "Hello Electron",
   "version": "0.0.1",
   "description": "Hello Electron is a simple hello world example of Electron",
-  "main": "main.js",
+  "main": "app.js",
   "repository": "https://github.com/erictherobot/hello-electron",
   "author": {
     "name": "Eric David Smith",
@@ -26,7 +26,8 @@
     "electron-compilers": "^4.0.1",
     "electron-debug": "^1.0.0",
     "electron-reload": "^1.0.2",
-    "less": "^2.7.1"
+    "less": "^2.7.1",
+    "node-sass": "^3.10.1"
   },
   "devDependencies": {
     "devtron": "^1.1.0",
