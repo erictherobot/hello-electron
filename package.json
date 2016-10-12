@@ -1,24 +1,20 @@
 {
   "name": "hello-electron",
+  "productName": "Hello Electron",
   "version": "0.0.1",
   "description": "Hello Electron is a simple hello world example of Electron",
-  "main": "index.js",
-  "repository": {
-    "url": "https://github.com/erictherobot/hello-electron.git",
-    "type": "git"
-  },
-  "author": "erictherobot <erictherobot@gmail.com>",
-  "license": "MIT",
+  "main": "main.js",
   "repository": "erictherobot/hello-electron",
   "author": {
     "name": "erictherobot",
     "email": "erictherobot@gmail.com",
     "url": "erictherobot.com"
   },
+  "license": "MIT",
   "scripts": {
     "test": "xo",
     "start": "electron .",
-    "build": "electron-packager . --out=dist --asar --overwrite --all"
+    "build": "electron-packager . 'Hello Electron' --out=dist --asar --all --icon 'electron.icns' --overwrite"
   },
   "files": [
     "index.js",
@@ -30,6 +26,7 @@
     "electron"
   ],
   "dependencies": {
+    "electron": "^1.4.3",
     "electron-debug": "^1.0.0"
   },
   "devDependencies": {
@@ -45,4 +42,4 @@
       "browser"
     ]
   }
-  }
+}
