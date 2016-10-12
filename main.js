@@ -13,7 +13,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({
 		width: 600,
 		height: 400,
-		icon: __dirname + '/electron.icns'
+		icon: __dirname + '/assets/img/electron.icns'
 	})
 
   // and load the index.html of the app.
