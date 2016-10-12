@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hello Electron</title>
-		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="assets/css/app.css">
 	</head>
 	<body class="light app">
 		<div class="container">
@@ -15,6 +15,10 @@
 			<section class="main"></section>
 			<footer></footer>
 		</div>
-		<script src="index.js"></script>
+		<script>
+			// You can also require other files to run in this process
+			require('./assets/js/menu');
+		</script>
+		<script src="./assets/js/colors.js" charset="utf-8"></script>
 	</body>
 </html>
