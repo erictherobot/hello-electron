@@ -22,8 +22,11 @@
   ],
   "dependencies": {
     "electron": "^1.4.3",
+    "electron-compile": "^3.3.6",
+    "electron-compilers": "^4.0.1",
     "electron-debug": "^1.0.0",
-    "electron-reload": "^1.0.2"
+    "electron-reload": "^1.0.2",
+    "less": "^2.7.1"
   },
   "devDependencies": {
     "devtron": "^1.1.0",
