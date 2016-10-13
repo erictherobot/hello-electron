@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 var Intro = React.createClass({
-  toggleBgColor: function(){
+  toggleBgColor: function() {
     document.getElementsByTagName('body')[0].classList.toggle('light');
     document.getElementsByTagName('body')[0].classList.toggle('dark');
   },
   render: function() {
-    let classnames = 'btn btn-6 btn-6f';
+    const classnames = 'btn btn-6 btn-6f';
     return (
       <header className="box">
         <h1>Hello Electron</h1>
