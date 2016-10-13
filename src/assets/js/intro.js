@@ -12,7 +12,7 @@ var Intro = React.createClass({
       <header className="box">
         <h1>Hello Electron</h1>
         <p>I am a young desktop application ready to grow</p>
-        <button className={classnames} onClick={this.toggleBgColor}>I am a button</button>
+        <button className={classnames} onClick={this.toggleBgColor}>I am a big button</button>
       </header>
     );
   }
