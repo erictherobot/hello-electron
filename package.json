@@ -12,8 +12,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "electron .",
-    "dev-start": "rm -rf .cache && cross-env NODE_ENV=development electron .",
+    "start": "rm -rf .cache && cross-env NODE_ENV=development electron .",
     "clean-cache": "rm -rf .cache",
     "clean-source": "node cleaner.js \"./dist\"",
     "compile": "cross-env NODE_ENV=production electron-compile --appDir . ./src",

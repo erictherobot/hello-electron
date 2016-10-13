@@ -30,8 +30,38 @@ $ yarn start
 $ yarn run build
 ```
 
+### Other Utilities
+
+Clean the `.cache` folder
+
+```
+$ yarn clean-cache
+```
+
+Clean the `/dist` folder
+
+```
+$ yarn clean-source
+```
+
+Compile locally
+
+```
+$ yarn compile
+```
+
+Compile + Package for distribution - All Platforms (macOS, Linux, and Windows) - WIP - may not work as expected.
+
+```
+$ yarn quick-package
+```
+
 Builds the app for macOS, Linux, and Windows, using [electron-packager](https://github.com/electron-userland/electron-packager).
 
 ## License
 
 MIT © [erictherobot](http://erictherobot.com)
+
+## Follow on Twitter
+
+[@erictherobot](https://twitter.com/erictherobot)
