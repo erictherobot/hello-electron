@@ -13,7 +13,7 @@ Hello Electron is a simple hello world example of Electron.
 ## Start Dev App
 
 ```
-$ yarn
+$ yarn start
 ```
 
 ### Other Commands / Utilities
