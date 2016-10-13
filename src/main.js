@@ -1,6 +1,14 @@
 const {app, BrowserWindow} = require('electron');
+const isDev = require('electron-is-dev');
 
-require('electron-reload')(__dirname);
+// Check which environment is running. Dev / Prod
+if (isDev) {
+    console.log('Running in development');
+    // Reload the app upon detecting saved changes.
+    require('electron-reload')(__dirname);
+} else {
+    console.log('Running in production');
+}
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -57,7 +65,7 @@ app.on('ready', () => {
     createLoadingScreen();
     setTimeout(function () {
       createWindow();
-    }, 5000); // Show loading screen for 5s (this is just a dummy value, change it if it doesnt make sense for your app)
+    }, 3000); // Show loading screen for 3s (this is just a dummy value, change it if it doesnt make sense for your app)
 });
 
 // Quit when all windows are closed.
