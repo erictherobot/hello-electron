@@ -23,7 +23,6 @@ fs.readdir(dist_dir, function(err, files) {
     if (!err) {
         files.forEach(function(folder) {
             var srcPath = dist_dir + '/' + folder + '/resources/app/src';
-
             console.log('Cleaning source code:', srcPath);
             cleanDirectory(srcPath);
         })
