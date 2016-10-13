@@ -18,16 +18,10 @@ This app is using Yarn - Learn More:
 $ yarn
 ```
 
-### Run
-
-```
-$ yarn start
-```
-
 ### Build
 
 ```
-$ yarn run build
+$ yarn build
 ```
 
 ### Other Utilities
