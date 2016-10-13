@@ -1,0 +1,92 @@
+// Less Variables
+@text-color-white:				#fff;
+@text-color-black:				#000;
+@text-color-purple:				#876CB1;
+
+// Padding & Margin Reset
+@padding-x:			  0;
+@margin-x:				0;
+
+// Typography
+@base-font-family:			-apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+@base-font-size:				14px;
+@base-font-weight:			normal;
+
+// Headings h1-h6
+@font-size-h1:					64px;
+@font-size-h2:          48px;
+@font-size-h3:          36px;
+@font-size-h4:          24px;
+@font-size-h5:          18px;
+@font-size-h6:          12px;
+
+html,
+body {
+	padding: @padding-x;
+	margin: @margin-x;
+}
+
+body {
+	font-family: @base-font-family;
+}
+
+header {
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -250px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: @font-size-h1;
+	font-weight: 100;
+	margin: @margin-x;
+	padding: @padding-x;
+}
+
+header p {
+	font-size: calc(@base-font-size + 2);
+	font-weight: @base-font-weight;
+	margin: @margin-x;
+	padding: @padding-x;
+}
+
+.dark {
+	color: @text-color-white;
+	background-color: @text-color-purple;
+	background-image: @bg-image;
+}
+
+.light {
+	color: @text-color-purple;
+	background-color: @text-color-white;
+	background-image: @bg-image;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.app {
+  /* Disable text selection, or your app will feel like a web page */
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+
+  /* Cover the whole window */
+  height: 100%;
+
+  /* Make sure this matches the native window background color that you pass to
+   * electron.BrowserWindow({...}), otherwise your app startup will look janky. */
+
+  /* Smoother startup */
+  animation: fadein 1.5s;
+}
