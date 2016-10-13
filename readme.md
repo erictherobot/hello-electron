@@ -15,7 +15,7 @@ Hello Electron is a simple hello world example of Electron.
 ```
 $ git clone https://github.com/erictherobot/hello-electron.git
 $ cd hello-electron
-$ yarn
+$ yarn start
 ```
 
 ## Start Dev App
