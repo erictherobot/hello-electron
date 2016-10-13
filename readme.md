@@ -7,12 +7,10 @@ Hello Electron is a simple hello world example of Electron.
 - Electron
 - React
 - Less
-- Yarn
+- Yarn - https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/
 - electron-compile
 
-## Start Development App
-This app is using Yarn - Learn More:
- https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/
+## Start Dev App
 
 ```
 $ yarn
