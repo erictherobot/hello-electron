@@ -1,17 +1,17 @@
 {
   "env": {
     "development": {
-      "text/typescript": {
-        "sourceMaps": "inline",
-        "module": "es6",
-        "target": "es5"
+      "application/javascript": {
+        "presets": ["es2016-node5", "react"],
+        "sourceMaps": "inline"
       },
       "text/less": {
         "dumpLineNumbers": "comments"
       }
     },
     "production": {
-      "text/typescript": {
+      "application/javascript": {
+        "presets": ["es2016-node5", "react"],
         "sourceMaps": "none"
       }
     }
