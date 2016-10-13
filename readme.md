@@ -10,7 +10,7 @@ Hello Electron is a simple hello world example of Electron.
 - Yarn
 - electron-compile
 
-## Dev
+## Start Development App
 This app is using Yarn - Learn More:
  https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/
 
@@ -18,13 +18,7 @@ This app is using Yarn - Learn More:
 $ yarn
 ```
 
-### Build
-
-```
-$ yarn build
-```
-
-### Other Utilities
+### Other Commands / Utilities
 
 Clean the `.cache` folder
 
