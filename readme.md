@@ -10,6 +10,14 @@ Hello Electron is a simple hello world example of Electron.
 - Yarn - https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/
 - electron-compile
 
+# Install
+
+```
+$ git clone https://github.com/erictherobot/hello-electron.git
+$ cd hello-electron
+$ yarn
+```
+
 ## Start Dev App
 
 ```
