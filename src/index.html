@@ -1,24 +1,17 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>Hello Electron</title>
-		<link rel="stylesheet" type="text/less" href="assets/less/app.less">
+		<link rel="stylesheet" type="text/less" href="assets/less/app.less" />
 	</head>
 	<body class="light app">
 		<div class="container">
-			<header class="box">
-				<h1>Hello Electron</h1>
-				<p>I am a young desktop application ready to grow</p>
-				<button onclick="toggleColor()">I am a button</button>
-			</header>
-			<section class="main"></section>
-			<footer></footer>
+			<div id="intro"></div>
 		</div>
-		<script>
-			// You can also require other files to run in this process
+		<script type="text/javascript">
 			require('./assets/js/menu');
+			require('./assets/js/intro'); // React :)
 		</script>
-		<script src="./assets/js/colors.js" charset="utf-8"></script>
 	</body>
 </html>
