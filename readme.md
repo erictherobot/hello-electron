@@ -1,7 +1,7 @@
 # Hello Electron
 Hello Electron is a simple hello world example of Electron.
 
-![Image](https://dl.dropboxusercontent.com/s/8s1pr8ay8vczzkr/Screenshot%202016-10-11%2015.34.23.png?raw=true)
+![Image](https://dl.dropboxusercontent.com/s/huxc71ajiw8ij4s/Screenshot%202016-10-13%2009.54.17.png?dl=0?raw=true)
 
 #Technology
 - Electron
