@@ -857,8 +857,8 @@ babel@^6.5.2:
   resolved "https://registry.yarnpkg.com/babel/-/babel-6.5.2.tgz#59140607438270920047ff56f02b2d8630c2d129"
 
 babylon@^6.11.0:
-  version "6.11.6"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.11.6.tgz#56dc52e624882841c7fe095257fbcb4a5bb61ae1"
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.12.0.tgz#953e6202e58062f7f5041fc8037e4bd4e17140a9"
 
 balanced-match@^0.4.1:
   version "0.4.2"
@@ -1002,8 +1002,8 @@ cheerio@^0.19.0:
     lodash "^3.2.0"
 
 chokidar@^1.5.1:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.6.0.tgz#90c32ad4802901d7713de532dc284e96a63ad058"
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.6.1.tgz#2f4447ab5e96e50fb3d789fd90d4c72e0e4c70c2"
   dependencies:
     anymatch "^1.3.0"
     async-each "^1.0.0"
@@ -1363,7 +1363,7 @@ electron-compilers@^3.1.6:
     stylus "^0.54.5"
     typescript-simple "^2.0.0"
 
-electron-devtools-installer:
+electron-devtools-installer@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/electron-devtools-installer/-/electron-devtools-installer-2.0.1.tgz#d52dcb3a430a95b771dc01d8deb13fcbdaa8d13c"
   dependencies:
@@ -1387,7 +1387,7 @@ electron-download@^3.0.0, electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
-electron-is-dev:
+electron-is-dev@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-0.1.2.tgz#8a1043e32b3a1da1c3f553dce28ce764246167e3"
 
@@ -1418,15 +1418,15 @@ electron-packager@^8.0.0:
     sanitize-filename "^1.6.0"
     semver "^5.3.0"
 
-electron-reload:
+electron-reload@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/electron-reload/-/electron-reload-1.0.2.tgz#a6fa0d5e5196d1bde0de9cde2a0b6636f32e38b4"
   dependencies:
     chokidar "^1.5.1"
 
 electron@^1.3.5:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-1.4.3.tgz#b67566bd86b59d89c1172bade27ebd888e0304b7"
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-1.4.4.tgz#86000bce15e06cadc3566cb7c86122590dee54a5"
   dependencies:
     electron-download "^3.0.1"
     extract-zip "^1.0.3"
@@ -2434,8 +2434,8 @@ normalize-path@^2.0.1:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.0.1.tgz#47886ac1662760d4261b7d979d241709d3ce3f7a"
 
 npm-run-all@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/npm-run-all/-/npm-run-all-3.1.0.tgz#f8797bf6a55662b2bb53a06239cf46f8a22970f4"
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/npm-run-all/-/npm-run-all-3.1.1.tgz#5c6fe867332f08342b1a1ea99f447ab86c95cb02"
   dependencies:
     chalk "^1.1.3"
     cross-spawn "^4.0.0"
@@ -2983,8 +2983,8 @@ sntp@1.x.x:
     hoek "2.x.x"
 
 source-map-support@^0.4.2:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.3.tgz#693c8383d4389a4569486987c219744dfc601685"
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.5.tgz#4438df4219e1b3c7feb674614b4c67f9722db1e4"
   dependencies:
     source-map "^0.5.3"
 
@@ -3125,8 +3125,8 @@ supports-color@^2.0.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
 symbol-observable@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.3.tgz#0fdb005e84f346a899d492beba23068b32d1525a"
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.4.tgz#29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d"
 
 tar-pack@~3.1.0:
   version "3.1.4"
