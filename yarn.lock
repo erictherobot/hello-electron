@@ -3174,6 +3174,10 @@ to-fast-properties@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-1.0.2.tgz#f3f5c0c3ba7299a7ef99427e44633257ade43320"
 
+tone:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/tone/-/tone-0.8.0.tgz#15c3300383be662d223c2d6fede5f2b4464c0e1e"
+
 touch@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/touch/-/touch-0.0.3.tgz#51aef3d449571d4f287a5d87c9c8b49181a0db1d"
