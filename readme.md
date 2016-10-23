@@ -14,6 +14,7 @@ Hello Electron is a simple hello world example of Electron.
 
 - Tone = Electron + React + Tone.js
 - Charts = Electron + React + D3.js / Highcharts
+- UI = Electron + React + PhotonKit
 
 # Install
 
