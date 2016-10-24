@@ -1,18 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Tesseract from 'tesseract.js'
 
 var Intro = React.createClass({
-  toggleBgColor: function() {
-    document.getElementsByTagName('body')[0].classList.toggle('light');
-    document.getElementsByTagName('body')[0].classList.toggle('dark');
+  componentDidMount() {
+      // const myImage = this.files; // for file input
+      const myImage = './src/assets/img/OCR-Electron.png';
+      console.log('Processing image. please wait...');
+      this.setState(Tesseract.recognize(myImage).progress(function(results){console.log(results)}).then(function(results){console.log(results.text + 'Completed OCR Processing Using Tesseract.js!')}));
   },
   render: function() {
-    const classnames = 'btn btn-6 btn-6f';
+    // const classnames = 'btn btn-6 btn-6f btn-width custom-file-input';
     return (
       <header className="box">
         <h1>Hello Electron</h1>
-        <p>I am a young desktop application ready to grow</p>
-        <button className={classnames} onClick={this.toggleBgColor}>I am a big button</button>
+        <p>View console to see the OCR processing using Tesseract.js</p>
+        <img src="./assets/img/OCR-Electron.png" width="500" />
+        {/* <input
+          className={classnames}
+          type="file"
+          onChange={this.handleChange} /> */}
       </header>
     );
   }
