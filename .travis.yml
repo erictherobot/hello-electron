@@ -22,7 +22,7 @@ matrix:
   allow_failures:
     - os: osx
 
-script: './script/cibuild'
+script: './cleaner.js'
 
 branches:
   only:
