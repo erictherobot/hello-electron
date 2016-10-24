@@ -22,7 +22,7 @@ matrix:
   allow_failures:
     - os: osx
 
-script: './cleaner.js'
+script: npm run quick-package
 
 branches:
   only:
